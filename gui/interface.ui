@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>interface</class>
+ <widget class="QWidget" name="interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>550</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>reset</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>651</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextBrowser" name="textBrowser"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextBrowser" name="textBrowser_2"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QTextBrowser" name="textBrowser_4"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QTextBrowser" name="textBrowser_3"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTextBrowser" name="textBrowser_6"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QTextBrowser" name="textBrowser_7"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QTextBrowser" name="textBrowser_8"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTextBrowser" name="textBrowser_16"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTextBrowser" name="textBrowser_13"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QTextBrowser" name="textBrowser_9"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QTextBrowser" name="textBrowser_11"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QTextBrowser" name="textBrowser_12"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QTextBrowser" name="textBrowser_15"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QTextBrowser" name="textBrowser_14"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QTextBrowser" name="textBrowser_10"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTextBrowser" name="textBrowser_5"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
