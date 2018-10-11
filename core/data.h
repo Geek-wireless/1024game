@@ -15,7 +15,7 @@ class data
 {
 public:
     data();
-
+    void initGame();
 private:
     qint32 num[8][8];   //number of each form
     qint8  empty[8][8]; //whether the form is empty,1 empty/0 filled
